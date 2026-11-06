@@ -12,6 +12,7 @@ export function Nav() {
 
   const links = [
     { href: "/", label: "빈 방 보기" },
+    { href: "/rules", label: "규정 묻기" },
     ...(user
       ? [
           { href: "/reservations", label: "내 예약" },

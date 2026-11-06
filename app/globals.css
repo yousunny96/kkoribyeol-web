@@ -130,6 +130,8 @@ input[type="checkbox"], input[type="radio"] { width: 18px; height: 18px; min-hei
 .notice.ok { background: var(--primary-weak); color: var(--primary); border-color: var(--primary-weak1); }
 .notice.info { background: var(--warning-weak); color: var(--warning); }
 .empty { text-align: center; color: var(--sub); padding: 40px 16px; background: var(--fill-weak); border-radius: var(--r-16); font-size: 14px; }
+.chat-q { justify-self: end; max-width: 80%; background: var(--primary); color: var(--white); padding: 10px 16px; border-radius: var(--r-16); font-size: 15px; }
+.chat-src { background: var(--fill-weak); border: 1px solid var(--line); border-radius: var(--r-12); padding: 10px 12px; }
 .stepper { display: flex; align-items: center; gap: 6px; }
 .stepper input { width: 64px; text-align: center; }
 
